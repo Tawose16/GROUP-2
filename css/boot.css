@@ -1,28 +1,24 @@
 
 body {
-    font-family: Poppins, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  }
+  font-family: Poppins, sans-serif;
+  background-color: #f9f9f9;
+
+  min-height: 100vh;
+}
 
 
 
 /* styling for icons for features begining */
-.row{
+.row {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  flex-wrap: wrap;
-  flex-direction: auto;
   width: 100%;
-  flex-direction: row;
   padding: 1.5rem;
+
 }
-.info-box{
+
+.info-box {
   background-color: #f5f5f5;
   height: auto;
   margin-bottom: 5%;
@@ -40,7 +36,7 @@ circle {
 }
 
 .dashed {
-  stroke-dasharray: 2, 5  ;
+  stroke-dasharray: 2, 5;
 }
 
 .dotted {
@@ -63,112 +59,111 @@ circle {
 }
 
 .round {
-display: flex;
+  display: flex;
 }
 
-.content{
+.content {
   line-height: 0.5rem;
   padding-top: 0.5rem;
 }
+
 /* styling for icons for features end */
 
 
 
-  .section-header {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .section-header h1 {
-    font-size: 36px;
-    color: #1b1b1b;
-    margin: 0;
-    position: relative;
-    display: inline-block;
-  }
-  
-  .section-header h1 .highlight {
-    color: #ff6600;
-  }
-  
-  .section-header h1::after {
-    content: "";
-    display: block;
-    width: 50px;
-    height: 2px;
-    background-color: #ff6600;
-    margin: 10px auto 0;
-  }
-  
-  .section-header p {
-    margin-top: 10px;
-    font-size: 16px;
-    color: #555;
-    line-height: 1.5;
-  }
+.section-header {
+  text-align: center;
+  padding: 20px;
+}
 
-  .card-container {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-  }
-  
-  .card {
-    background: transparent;
-    border-radius: 8px;
-    width: 300px;
-    text-align: center;
-    box-shadow: 0 7px 9px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    transition: box-shadow .4s;
-  }
-  
-  .card:hover {
-    box-shadow: none;
-  } 
+.section-header h1 {
+  font-size: 36px;
+  color: #1b1b1b;
+  margin: 0;
+  position: relative;
+  display: inline-block;
+}
 
-  .card img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-  
-  .card h2 {
-    font-size: 18px;
-    color: #333;
-    margin: 10px 0;
-  }
-  
-  .card p {
-    margin: 5px 0;
-    color: #555;
-  }
-  
-  .price {
-    font-size: 20px;
-    color: #000;
-    font-weight: bold;
-  }
-  
-  .card button {
-    background-color: #ff6600;
-    display: inline-block;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 30px;
-    cursor: pointer;
-    margin-top: 10px;
-    transition: background-color .25s;
-  }
-  
-  .card button:hover {
-    background-color: #000000;
-    color: #ff6600;
-  }
-  
+.section-header h1 .highlight {
+  color: #ff6600;
+}
+
+.section-header h1::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #ff6600;
+  margin: 10px auto 0;
+}
+
+.section-header p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.card-container {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  background: transparent;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 7px 9px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: box-shadow .4s;
+}
+
+.card:hover {
+  box-shadow: none;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card h2 {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.card p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.price {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+}
+
+.card button {
+  background-color: #ff6600;
+  display: inline-block;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color .25s;
+}
+
+.card button:hover {
+  background-color: #000000;
+  color: #ff6600;
+}
