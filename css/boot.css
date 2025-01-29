@@ -59,7 +59,7 @@ circle {
 }
 
 .round {
-  display: flex;
+display: flex;
 }
 
 .content {
@@ -68,8 +68,6 @@ circle {
 }
 
 /* styling for icons for features end */
-
-
 
 .section-header {
   text-align: center;
